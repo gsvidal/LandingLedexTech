@@ -1,0 +1,656 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?oh6lfr');
+  src:  url('../fonts/icomoon.eot?oh6lfr#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?oh6lfr') format('truetype'),
+    url('../fonts/icomoon.woff?oh6lfr') format('woff'),
+    url('../fonts/icomoon.svg?oh6lfr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e900";
+}
+
+
+body {
+font-family: 'Source Serif Pro',sans-serif;
+margin: 0px;
+}
+
+.header {
+  background-color: #7c2ae8;
+  color: white;
+  margin: 0px;
+  /* height: 90px; */
+  display: flex;
+  justify-content: space-between;
+  /* flexcenter: column; */
+  align-items: center;
+  flex-wrap: wrap;
+<<<<<<< HEAD
+  /* prueba repositorio */
+  /* prueba repositorio 2 */
+
+=======
+  /* cambios en rama cambios */
+>>>>>>> rama-cambios
+}
+
+.header ol{
+  display: flex;
+  /* margin: 5px; */
+  /* margin-right: 50px; */
+  
+}
+
+.header li{
+  margin: 12px;
+/* justify-content: space-evenly; */
+}
+
+
+.header a{
+  color: white;
+  text-decoration: none;
+  margin: 0 25px;
+  display:flex;
+}
+
+
+.flexbox{
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* justify-content:  center; */
+  height: 250px;
+  border: 1px solid red;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+ol,ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* Gresponsiveness: */ 
+  /* flex-wrap:wrap; */
+}
+ 
+/* menu{
+  flex-wrap:wrap; no funca idkw
+} */
+
+.box{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border: 1px solid purple;
+  /* flex-shrink: 0; */
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Times New Roman',sans-serif;
+  font-weight: normal;
+/* font-style: italic; */
+}
+
+h1{
+  font-size: 2.75em;
+  line-height: 1;
+  letter-spacing: -.5px;
+  text-transform: capitalize;
+  color: white;
+  /* margin: 10px 778px 50px 20px; */
+  margin: 1%;
+  width:48%;
+  
+
+}
+h1 strong{
+  color: #7c2ae8;
+}
+
+h2{
+  color: #7c2ae8;
+  text-transform: uppercase;
+  /* font-family: 'Source Serif Pro',sans-serif; */
+  font-weight: bold;
+  font-size: 24px;
+  margin: 30px 0;
+}
+
+.logo{
+  margin: 0px 10px;
+}
+
+.logo img{
+  margin:12px 0px;
+}
+.portfolio{
+  margin: 10px;
+  /* background: #f4ebfa ; */
+}
+
+.hero {
+  /* height: auto; */
+  /* height: 503px;  */
+  /* background-image: url('../images/hero.jpg'); */
+  background-color:#c7afd3;
+  /* background-size: 778px, 503px; */
+  /* background-repeat: no-repeat;
+  background-position-x: right; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+.hero img {
+  
+  width:48%;
+}
+.html-video {
+  /* max-width:100%;
+  max-width empieza con su tamaño inicial o por default y luego se mantiene en 100% si se modifica el viewport */
+
+  width:100%;
+  /* mantiene en 100% si se modifica el viewport */
+  margin-top: 20px;
+}
+.flexible-video {
+    width:100%;
+    height:0;
+    padding-top:56.25%;
+    background: white; 
+    position:relative;
+
+/*  */
+}
+.video-insertado {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  width:100%;
+  height:100%;
+  /* z-index:3; */
+}
+
+.services{
+
+  border: #7c2ae8 solid 1px;
+  border-radius: 10px;
+  padding: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+
+  margin: 25px 5px;
+  -webkit-box-shadow: -4px 4px 8px 2px rgba(124,42,232,0.39);
+-moz-box-shadow: -4px 4px 8px 2px rgba(124,42,232,0.39);
+box-shadow: -4px 4px 8px 2px rgba(124,42,232,0.39);
+
+  /* Gresponsiveness: */
+  /* flex-wrap:wrap; */
+
+}
+
+.services-title{
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.services-subtitle,
+.services-url
+{
+  font-size: 15px;
+  margin: 15px 0;
+  margin-top: 5px;
+  /* margin-left: 0; */
+}
+.services strong{
+  font-family: 'Source Serif Pro',sans-serif;
+
+}
+.services-details {
+  width: 50% ;
+  
+}
+.services-description {
+  text-align: justify;
+
+}
+
+
+.services-imageContainer{
+  width: 50% ;
+  margin: 0px 0px 0px 25px;
+  display:flex;
+  justify-content:center;
+  /* margin-left: 25px; */
+}
+
+.services-imageContainer img{
+  /* Así se hacen las imágenes responsive */
+  max-width: 100% ;
+  text-align:center;
+}
+
+  
+
+
+.background-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.background{
+   margin: 1%;
+  width: 23%;
+  background-color: rgb(230, 209, 255);
+}
+.background-imageContainer{
+  width: 100%;
+  margin: 0; 
+  height: 200px;
+  
+}
+.background-image{
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+.background-detail{
+  
+  margin: 20px;
+  margin-top: -50px;
+  /* border: 1px solid purple; */
+  background-color: white;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+}
+.background-title{
+  font-weight: bold;
+  font-family: 'Source Serif Pro',sans-serif;
+  text-align: center;
+}
+.background-subtitle
+{
+  margin: 10px;
+  /* text-align: center; */
+}
+.background-list-title
+{
+  margin: 30px 10px;
+  
+}
+.background-list
+{
+  margin: 0px 5px;
+  
+}
+.background-url{
+  object-position: center;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 20px 20px 20px 20px;
+}
+.background-description{
+  text-align: justify;
+}
+.contact{
+  /* height: 150px; */
+  background-color: thistle;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  padding:10px;
+}
+
+.container .form-email h3{
+  font-weight:600;
+  margin: 5px 0 30px 0; 
+}
+.form-email input {
+  text-align: left;
+  color: gray;
+  margin: 10px 0;
+}
+/* Posicion relativa ejemplo */
+/* .contact .container {
+  position: relative;
+
+}
+.social { 
+  position:absolute;
+  top:0px;
+  left:0px;
+} */
+.social-link{
+   display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  margin: 0 20px;
+}
+
+.social-link.instagram{
+  background-image: url('../images/instagram.svg');
+}
+.social-link.facebook{
+  background-image: url('../images/facebook.svg');
+}
+.social-link.twitter{
+  background-image: url('../images/twitter.svg');
+  
+}
+.footer{
+  /* height: 228px; */
+ background-color: #7c2ae8 ;
+ color: white;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ /* flex-direction: column; */
+  /* responsiveness: */
+ flex-wrap:wrap; 
+ 
+}
+.footer img{
+ vertical-align: middle;
+}
+.footer p{
+ margin-left: 20PX;
+ margin-right: 20PX;
+}
+.footer p a {
+  color: rgb(255, 238, 0);
+}
+
+.container {
+  max-width: 1367px;
+  font-size: 16px;
+  /* font-size: 2em; */
+  flex:1;
+  height: inherit;
+  /* border: 1px solid red; */
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  flex-wrap: inherit;
+  margin: 0 auto;
+
+  /* padding:5px; */
+}
+.burger-button {
+  width: 40px;
+  height:40px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,.6);
+  display:none;
+  text-align: center;
+  line-height: 40px;
+  position:fixed;
+  z-index:4;
+  left:5px;
+  top:5px;
+  color: white;
+}
+
+
+/* Desktop first se debe empezar desde el MQ más grande */
+
+@media screen and (max-width: 1366px) 
+{
+
+  .background{
+    margin: 1%;
+   width: 31%;
+
+ }
+ .container{
+  max-width: 1366px;
+}
+h1 {
+  /* text-align: center; */
+  font-size: 2.4em;
+  /* width:100%; */
+  /* height:auto; */
+}
+}
+
+@media screen and (max-width: 767px)
+{
+  .burger-button {
+    display:block;
+  }
+
+
+.header{
+  display:block;
+  height: auto;
+  padding:3px;
+}
+.header ol{
+  /* initial es el valor por defecto */
+  display:initial;
+  text-align:center;
+}
+.header li{
+  height:40px;  
+  margin-bottom:25px;
+  /* border: 1px solid black; */
+}
+.header a{
+
+  justify-content: center;
+  height:30px;
+  font-size:30px;
+
+  
+  
+  }
+
+.menu {
+  position:fixed;
+  z-index:3;
+  background-color: rgba(124, 42, 232, .8);
+  top:0;
+  left: -100vw;
+  width:100vw;
+  height:50vh;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  transition:.3s;
+}
+.menu.is-active {
+  left:0;
+}
+/* .ol {
+
+} */
+.logo{
+  text-align:center;
+
+}
+.hero {
+  background-image: url('../images/hero.jpg');
+  background-position: top;
+  background-size: cover;
+  height: 350px;
+  /* display:flex;
+  
+  justify-content:center;
+  align-items: center; */
+  /* flex-wrap:wrap; */
+  position:relative;
+  /* top:-12px; */
+}
+  
+.hero img{
+  position:absolute;
+  width:100%;
+  height:inherit;
+  object-fit: cover;
+  object-position: center;
+  /* se le puede poner un sesgo al object position poniendole un 34% al lado del valor */
+  z-index:1;
+  
+}
+h1 {
+  /* text-align: center; */
+  font-size: 2em;
+  width:100%;
+  /* height:100% */
+  /* margin-top:32px; */
+  /* height:auto; */
+  z-index:2;
+}
+h1 strong {
+  color: rgb(255, 230, 0);
+}
+
+
+.services{
+  display:block;
+
+}
+.services-details{
+  width:auto;
+  font-size: 14px;
+}
+
+.services-title {
+  font-size:2em; 
+
+}
+.services-subtitle {
+  font-size:1.2em;
+
+}
+.services-url {
+  font-size:1.2em;
+
+}
+.services-description {
+  font-size:1.3em;
+
+}
+.services-imageContainer{
+  width: auto;
+  text-align:center;
+  margin:0px;
+}
+.services-imageContainer img{
+  /* Así se hacen las imágenes responsive */
+  width:100%;
+}
+.background{
+  margin: 1%;
+ width: 48%;
+
+}
+.contact .container {
+  justify-content: center;
+}
+.form-email {
+  margin-bottom: 10px;
+
+}
+
+
+
+.form-email h3 {
+  text-align: center;
+  margin: 10px 0 20px 0;
+
+}
+.footer .container {
+  justify-content: center;
+}
+.social { 
+  margin: 15px;
+  width:100%;
+  text-align:center;
+}
+/* .creditos {
+  margin-bottom: 20px;
+} */
+
+
+}
+
+@media screen and (max-width: 480px)
+{
+  .background{
+    margin: 5%;
+   width: 90%;
+    }
+
+    h1 {
+      font-size: 1.5em;
+      text-align:center;
+    }
+
+    .form-email {
+      display:flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items:center;
+      /* text-align:center; */
+    }
+}
+
+
+@media screen and (max-width: 320px)
+{
+  h1 {
+    text-align:center;
+  }
+
+  .services-details{
+    /* width:auto; */
+    font-size: 10px;
+  }
+  .services{
+    display:block;
+    padding: 15px;
+  }
+  .social { 
+    display:flex;
+  }
+
+  .form-email {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    /* text-align:center; */
+  }
+  .footer .container p {
+    text-align:center;
+  }
+}
