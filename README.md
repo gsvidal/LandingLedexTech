@@ -1,3 +1,3 @@
 # LandingLedexTech
 
-## LedexTech's responsive landing 
+## LedexTech's responsive landing page
