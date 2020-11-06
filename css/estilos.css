@@ -30,11 +30,14 @@
 }
 html {
   scroll-behavior: smooth;
+  /* width: 100vw; */
 }
 
 body {
 font-family: 'Poppins','Source Serif Pro',sans-serif;
 margin: 0px;
+/* width: 100vw; */
+
 }
 
 .header {
@@ -598,7 +601,7 @@ h1 strong {
 }
 .form-email {
   margin-bottom: 10px;
-
+  padding-left: 0;
 }
 
 
@@ -643,6 +646,18 @@ h1 strong {
       align-items:center;
       /* text-align:center; */
     }
+    .services-url {
+      word-break: break-word;
+  
+    }
+    h2 {
+      font-size: 1.2em;
+      word-break: break-word;
+    }
+    .footer .container p {
+
+      font-size: .8em;
+    }
 }
 
 
@@ -650,6 +665,16 @@ h1 strong {
 {
   h1 {
     text-align:center;
+    padding: 0;
+  }
+  .container #Experiencia {
+    margin-left: 20px;
+    /* margin-right: 0px; */
+  }
+  .container .background-subtitle {
+    margin-left: 20px;
+    text-align: center;
+    /* margin-right: 0px; */
   }
 
   .services-details{
@@ -660,10 +685,13 @@ h1 strong {
     display:block;
     padding: 15px;
   }
+ 
   .social { 
     display:flex;
   }
-
+  .contact .container {
+    width: 100%;
+  }
   .form-email {
     display:flex;
     flex-direction: column;
@@ -671,7 +699,14 @@ h1 strong {
     align-items:center;
     /* text-align:center; */
   }
+  .form-email h3 {
+    font-size: 1em;
+  }
   .footer .container p {
     text-align:center;
+
+  }
+  .footer .container img {
+    margin-top: 20px;
   }
 }
