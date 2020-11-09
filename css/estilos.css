@@ -452,10 +452,7 @@ button {
   max-width: 1366px;
 }
 h1 {
-  /* text-align: center; */
   font-size: 2.4em;
-  /* width:100%; */
-  /* height:auto; */
 }
 }
 @media screen and (max-width: 1024px)
@@ -470,11 +467,11 @@ h1 {
     display:block;
   }
 
-
 .header{
   display:block;
   height: auto;
   padding:3px;
+  height: 130px;
 }
 .header ol{
   /* initial es el valor por defecto */
@@ -484,7 +481,6 @@ h1 {
 .header li{
   height:40px;  
   margin-bottom:25px;
-  /* border: 1px solid black; */
 }
 .header a{
 
@@ -492,7 +488,6 @@ h1 {
   height:30px;
   font-size:30px;
 
-  
   
   }
 
@@ -504,6 +499,7 @@ h1 {
   left: -100vw;
   width:100vw;
   height:50vh;
+  min-height: 205px;
   display:flex;
   align-items: center;
   justify-content:center;
@@ -512,11 +508,17 @@ h1 {
 .menu.is-active {
   left:0;
 }
-/* .ol {
 
-} */
 .logo{
   text-align:center;
+  padding-top:6px;
+}
+.logo img:hover {
+
+
+    position: relative;
+    top: -2px;
+    left: 0px;
 
 }
 .hero {
